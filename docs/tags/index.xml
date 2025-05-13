@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on David Bernal</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on David Bernal</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Aug 2022 22:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Community</title>
+      <link>http://localhost:1313/tags/community/</link>
+      <pubDate>Tue, 16 Aug 2022 22:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/community/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Family</title>
+      <link>http://localhost:1313/tags/family/</link>
+      <pubDate>Tue, 16 Aug 2022 22:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/family/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life</title>
+      <link>http://localhost:1313/tags/life/</link>
+      <pubDate>Tue, 16 Aug 2022 22:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>School</title>
+      <link>http://localhost:1313/tags/school/</link>
+      <pubDate>Tue, 16 Aug 2022 22:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/school/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CheckStyle</title>
+      <link>http://localhost:1313/tags/checkstyle/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      <guid>http://localhost:1313/tags/checkstyle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code Style</title>
+      <link>http://localhost:1313/tags/code-style/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      <guid>http://localhost:1313/tags/code-style/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub Actions</title>
+      <link>http://localhost:1313/tags/github-actions/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      <guid>http://localhost:1313/tags/github-actions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/tags/java/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      <guid>http://localhost:1313/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ReviewDog</title>
+      <link>http://localhost:1313/tags/reviewdog/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      <guid>http://localhost:1313/tags/reviewdog/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
