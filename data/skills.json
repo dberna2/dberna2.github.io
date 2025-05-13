@@ -1,0 +1,63 @@
+[
+    {
+        "grouping":"Practices",
+        "skills":[ "Test-Driven Development", "Domain-Driven Design", "DevOps practices"]
+    },
+    {
+        "grouping":"Languages & Tools",
+        "skills":[
+            {"icon":"java", "name":"Java", "link":"https://www.oracle.com/java/"},
+            {"icon":"kotlin", "name":"Kotlin", "link":"https://kotlinlang.org/"},
+            {"icon":"python", "name":"Python", "link":"https://www.python.org/"},
+            {"icon":"git", "name":"Git", "link":"https://git-scm.com/"},
+            {"icon":"maven", "name": "maven", "link":"https://maven.apache.org/"},
+            {"icon":"bash", "name":"Bash", "link":"https://www.gnu.org/software/bash/"}
+        ]
+    },
+    {
+        "grouping":"Spring stack",
+        "skills":[
+            {"name": "Spring Boot", "icon":"java", "link": "https://spring.io/projects/spring-boot"},
+            {"name": "Spring Cloud", "icon":"java", "link": "https://spring.io/projects/spring-cloud"},
+            {"name": "Spring Data", "icon":"java", "link": "https://spring.io/projects/spring-data"},
+            {"name": "Spring Bash", "icon":"java", "link": "https://projects.spring.io/spring-bash/"},
+            {"name": "Spring Security", "icon":"java", "link": "https://spring.io/projects/spring-security"}
+        ]
+    },
+    {
+        "grouping":"Data Stack",
+        "skills":[ 
+            {"name": "Solr", "icon":"database", "link": "https://solr.apache.org/"},
+            {"name": "MongoDB", "link": "https://solr.apache.org/"},
+            {"name": "CouchDB", "icon":"database", "link": "https://solr.apache.org/"},
+            {"name": "MySQL", "link": "https://solr.apache.org/"},
+            {"name": "PostgreSQL", "link": "https://solr.apache.org/"},
+            {"name": "Redis", "link": "https://solr.apache.org/"}
+        ]
+    },
+    {
+      "grouping":"Containers & Cloud",
+        "skills":[
+            {"name":"Docker","link":"https://docker.com"},
+            {"name":"AWS","link":"https://aws.amazon.com"},
+            {"name":"Linux","link":"https://bosh.io"}
+        ]
+    },
+    {
+        "grouping": "Messaging & Streaming",
+        "skills": [
+            {"name": "Kafka", "icon": "kafka", "link": "https://kafka.apache.org/"},
+            {"name": "RabbitMQ", "icon": "rabbimq",  "link": "https://www.rabbitmq.com/"},
+            {"name": "Avro", "icon": "avro", "link": "https://avro.apache.org/"},
+            {"name": "Schema Registry", "icon": "schema-registry", "link": "https://docs.confluent.io/platform/current/schema-registry/index.html"}
+        ]
+    },
+    {
+        "grouping": "Monitoring Tools",
+        "skills": [
+            {"name": "Grafana", "icon": "grafana", "link": "https://grafana.com/"},
+            {"name": "Prometheus", "icon": "prometheus", "link": "https://prometheus.io/"},
+            {"name": "ELK Stack", "icon": "elastic",  "link": "https://www.elastic.co/elastic-stack/"}
+        ]
+    }
+  ]

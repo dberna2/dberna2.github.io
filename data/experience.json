@@ -1,0 +1,32 @@
+[
+     {
+        "role":"Software Architect",
+        "company":"Inditex",
+        "summary":"- Led the migration of stand-alone applications to a Kubernetes-based environment, enhancing scalability, reliability, and deployment automation. \n - Established and promoted best practices in operational excellence, ensuring high availability and performance of cloud-native applications. \n - Designed and implemented development process improvements to support future cloud expansion projects, focusing on scalability, maintainability, and team efficiency.",
+        "range":"Sep, 2022 - Present"
+    },
+    {
+        "role":"Software Architect",
+        "company":"Profile software services",
+        "summary":"- Led the migration of stand-alone applications to a Kubernetes-based environment, enhancing scalability, reliability, and deployment automation. \n - Established and promoted best practices in operational excellence, ensuring high availability and performance of cloud-native applications. \n - Designed and implemented development process improvements to support future cloud expansion projects, focusing on scalability, maintainability, and team efficiency.",
+        "range":"Oct, 2020 - Aug, 2025"
+    },
+    {
+        "role":"Back-end Tech Leader",
+        "company":"Mercury TSF",
+        "summary":"- Implemented a solution for the export and management of quick messages between banking entities, ensuring efficient integration with external clients. \n - Led the migration from SVN to Git and promoted the adoption of unit testing with JUnit—an initiative that laid the groundwork for future transitions to a microservices architecture. \n - Collaborated with cross-functional teams to enhance code quality and improve development cycles, maintaining a strong focus on continuous improvement.",
+        "range":"Feb, 2017 - Oct, 2020"
+    },
+    {
+        "role":"Senior Developer",
+        "company":"Entelgy",
+        "summary":"Led the analysis and migration of BBVA Colombia’s legacy architecture to a microservices-based model, designing and implementing RESTful services to interface with COBOL systems. \n - Successfully delivered the migration using API-first principles and focusing on building resilient, high-availability services aligned with enterprise standards. \n - Selected to lead the architecture rollout at BBVA Continental (Peru), acting as Technical Lead and ensuring seamless knowledge transfer and adaptation to local infrastructure. \n - Coordinated cross-country technical teams, provided mentoring to junior developers, and promoted best practices to ensure consistency, performance, and long-term maintainability across both implementations.",
+        "range":"Aug, 2013 - Feb, 2017"
+    },
+    {
+        "role":"Junior developer",
+        "company":"Banco de Bogotá",
+        "summary":"- Contributed to the migration of the bank’s legacy transaction messaging system to a modern, user-configurable web application, developed using Java with JSP and JavaScript, significantly improving flexibility and maintainability. \n - Supported the development of the “International” module, a new tool designed to manage international banking operations from internal branches. The solution was built using Java, EJB, JSP, JavaScript, and jQuery. \n - Collaborated with cross-functional teams to gather requirements and ensure alignment with business goals.",
+        "range":"Jul, 2011 - Aug, 2013"
+    }
+]

@@ -1,0 +1,58 @@
+
+baseURL: "https://example.org/"
+languageCode: "en-us"
+theme: "hugo-resume"
+title: "David Bernal"
+
+PygmentsCodeFences: true
+PygmentsCodeFencesGuessSyntax: true
+PygmentsStyle: "monokai"
+
+params:
+  firstName: "David"
+  lastName: "Bernal"
+  profileImage: "images/me.jpeg"
+  phone: "+34 645-481-084"
+  contactNote: "Solutions Architect"
+  address: "Madrid, ES"
+  email: "leo.bernal1946@gmail.com"
+  description: "Eddie has over 15 years experience enabling agile, CI/CD and DevOps culture in the enterprise.  Previously the Director of Enterprise DevOps Platforms influencing culture and technology at a Fortune 100 company, Eddie now helps CircleCI customers of all sizes adopt the best technologies and practices on their DevOps journey."
+  favicon: "images/favicon.ico"
+  # what sections
+  showQr: false
+  showContact: true
+  showBoards: true
+  showCertifications: true
+  showSocializations: true
+  # do you want to show git hash on page footer and link to repo? Add commit prefix here.
+  gitCommitPrefix: "https://github.com/eddiewebb/json-resume/commit/"
+  sections:
+    - "skills"
+    - "creations"
+    - "experience"
+    - "education"
+    - "blog"
+  
+  google:
+  analytics:
+    trackerID: "XX-123446-01"
+
+  handles:
+    - name: "LinkedIn"
+      link: "https://www.linkedin.com/in/david-leonardo-bernal-8968a060/"
+    - name: "GitHub"
+      link: "https://github.com/dberna2"
+    - name: "Medium"
+      link: "https://medium.com/@leo.bernal1946"
+      icon: "medium"
+    - name: "Stack Overflow"
+      link: "https://stackoverflow.com/users/7605552/david-leonardo-bernal"
+      icon: "stack-overflow"
+
+outputs:
+  home:
+    - "HTML"
+    - "JSON"
+
+taxonomies:
+  tag: "tags"
