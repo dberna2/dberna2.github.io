@@ -1,6 +1,199 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>David Bernal | “Document APIs using Spring Rest Docs”</title>
-<meta name=description content><meta property="og:image" content="https://dberna2.github.io/images/me.jpeg"><meta property="og:title" content="David Bernal | “Document APIs using Spring Rest Docs”"><meta property="og:description" content><meta name=author content="David Bernal"><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css integrity=sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2 crossorigin=anonymous><link rel=preload href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"></noscript><link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css></noscript><link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin=anonymous as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin=anonymous></noscript><link rel=preload href=https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin=anonymous as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin=anonymous></noscript><link rel=preload href=https://dberna2.github.io/css/resume.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://dberna2.github.io/css/resume.css></noscript><link rel=preload href=https://dberna2.github.io/css/tweaks.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://dberna2.github.io/css/tweaks.css></noscript><link rel=preload href=https://dberna2.github.io/css/resume.css as=style onload='this.onload=null,this.rel="stylesheet"'><noscript><link rel=stylesheet href=https://dberna2.github.io/css/resume.css></noscript><meta name=generator content="Hugo 0.145.0"></head><body id=page-top><nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id=sideNav><a class="navbar-brand js-scroll-trigger" href=#page-top><span class="d-block d-lg-none">David Bernal</span>
-<span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src=/images/me.jpeg alt>
-</span></a><button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
-<span class=navbar-toggler-icon></span></button><div class="collapse navbar-collapse" id=navbarSupportedContent><ul class=navbar-nav><li class=nav-item><a class="nav-link js-scroll-trigger" href=/#about>About</a></li><li class=nav-item><a class="nav-link js-scroll-trigger" href=/#skills>Skills</a></li><li class=nav-item><a class="nav-link js-scroll-trigger" href=/#creations>Creations</a></li><li class=nav-item><a class="nav-link js-scroll-trigger" href=/#experience>Experience</a></li><li class=nav-item><a class="nav-link js-scroll-trigger" href=/#education>Education</a></li><li class=nav-item><a class="nav-link js-scroll-trigger" href=/#blog>Blog</a></li><li class=nav-item><a class=nav-link href=/contact>Contact</a></li></ul></div></nav><div class="container-fluid p-0"><nav aria-label=breadcrumb><ol class=breadcrumb><li class=breadcrumb-item><a href=https://dberna2.github.io/>Home</a></li><li class=breadcrumb-item><a href=https://dberna2.github.io/blog/>Blog</a></li><li class="breadcrumb-item active"><a href=https://dberna2.github.io/blog/spring-rest-docs/>“Document APIs using Spring Rest Docs”</a></li></ol></nav><section class="resume-section p-3 p-lg-5 d-flex flex-column"><div class=my-auto><div class="mb-3 d-flex flex-row justify-content-between"><h2 class=mb-0><span class=text-primary>“Document APIs using Spring Rest Docs”</span></h2><span>August 16, 2022</span></div><div><p>Throughout my experience in software development, I’ve learned that one of the main things to keep in mind is how the code we write will be tested. And not just that — it’s also crucial to ensure that the tests actually work as they should, rather than just creating tests to meet a code coverage percentage and avoid issues with Sonar rules 😅.</p><p>At some point, we’ve all written our own tests, and over time we’ve found strategies that help us develop them more effectively. However, I’ve also seen that when deadlines start to tighten in a project, two main things often happen:</p><ol><li>Testing is sacrificed (a decision that comes back to bite later)</li><li>Developers are added to the project indiscriminately (a big mistake, especially when time is short)</li></ol><p>Even if it might not seem like it, tests are an excellent way to document our code. But to do this properly, we need time to write them and a team with at least a basic understanding of the project. Otherwise, we’ll end up creating tests that only aim to meet a code coverage percentage. (In my opinion) 😅</p><p>As I mentioned earlier, a good way to document our code is through tests. And while there are other alternatives for documenting our APIs—such as <a href=https://swagger.io/specification/>Swagger</a> or <a href=https://www.asyncapi.com/en>AsyncAPI</a> in this case, I’ll rely on the <a href=https://docs.spring.io/spring-restdocs/docs/2.0.5.RELEASE/reference/html5/>Spring REST Docs</a> project. It generates a document that describes the full functionality of our API in a very elegant and intuitive way.</p><h3 id=prerequisites>Prerequisites</h3><ul><li>Maven 3.6.X: <a href=https://maven.apache.org/download.cgi>https://maven.apache.org/download.cgi</a></li><li>Java 11: <a href=https://www.oracle.com/java/technologies/downloads>https://www.oracle.com/java/technologies/downloads</a></li><li>Intellij: <a href=https://www.jetbrains.com/idea/download>https://www.jetbrains.com/idea/download</a></li></ul><h3 id=user-service>User service</h3><p>To create our Spring Boot project, we go to <a href=https://start.spring.io/>https://start.spring.io/</a> and select the following configuration:</p><p><img src=/images/blog/spring-rest-docs/user-service-configurtion.webp alt=user-service-configurtion></p><p>We add the Asciidoctor plugin
-First, we need to configure the Asciidoctor plugin, which will be responsible for collecting all the documents generated by our tests (snippets). The main properties to configure are: sourceDirectory, snippets, and backend.</p><ul><li><p><strong>sourceDirectory</strong>: The path where our base template will be located, which will be used to generate the API documentation.</p></li><li><p><strong>snippets</strong>: The location where the snippets specified in each of our tests will be generated.</p></li><li><p><strong>backend</strong>: The type of document that will be generated for our API documentation. Possible values are: <strong>spring-html</strong>, <strong>html</strong> and <strong>pdf</strong>.</p></li></ul><p><img src=/images/blog/spring-rest-docs/asciidoctor-plugin-configuration.webp alt=asciidoctor-plugin-configuration></p><blockquote><p>Tip: I replaced the spring-restdocs-asciidoctor dependency with spring-asciidoctor-backends in order to generate a document using a style proposed by the Spring team. You can check out the repository <a href=https://github.com/spring-io/spring-asciidoctor-backends>here</a>.</p></blockquote><h3 id=usercontroller>UserController</h3><p>For our service, we’ll create a few endpoints where we can perform CRUD operations on a user and their possible accounts. To keep the service development concise, I used H2 as an in-memory database and Spring JPA to easily handle all database operations, allowing us to focus on what really matters: the tests. But if you’d like to take a look at the code, you can check it out <a href=https://github.com/dberna2/spring-rest-docs-gh-pages/blob/master/src/main/java/com/dberna2/springrestdocts/springrestdocs/controller/UserController.java>here</a>.</p><h3 id=usercontrollertest>UserControllerTest</h3><p>As I mentioned at the beginning of this post, “Tests are an excellent way to document our code,” so in this case, we’ll use MockMvc to make example requests to our API. We’ll also use the <a href=https://martinfowler.com/bliki/ObjectMother.html>ObjectMother</a> pattern to represent our input and output data, which will serve as the contract our API must follow.</p><h3 id=retrieve-user-by-id>Retrieve user by ID</h3><p>In this test, we retrieve a user’s basic information using their identifier and validate, using jsonPath, that the expected fields are present in the service’s response. So far, everything seems normal—but if we take a closer look at the <strong>pathParameters</strong> and <strong>responseFields</strong> methods, we’ll see that these are responsible for validating, through Spring Rest Docs, that the fields returned by the service are exactly the ones it’s supposed to return.</p><p><img src=/images/blog/spring-rest-docs/get_user_by_id.webp alt=get_user_by_id></p><blockquote><p>Note: The value <strong>user-by-id</strong> will be the name used to generate our snippets, so try to choose a name that clearly describes the purpose of what it does.</p></blockquote><p><img src=/images/blog/spring-rest-docs/get_user_response_fields_descriptor.webp alt=get_user_response_fields_descriptor></p><blockquote><p>Note: The buildField method is a utility I used to avoid repeating the same configuration for the FieldDescriptor objects, which are used by Spring Rest Docs. If you’d like to see what this method does, you can check it out here.</p></blockquote><h3 id=generated-snippets>Generated Snippets</h3><p>Once we complete the previous configuration and run our tests, we’ll find all the generated snippets in the <strong>/target/generated-snippets</strong> directory, using the identifiers we specified.</p></div><div></div><ul class=tags></ul></div></section><section><span style=color:#999>Nifty <a href=https://codepen.io/wbeeftink/pen/dIaDH>tech tag lists</a> from <a class=pen-owner-link href=https://codepen.io/wbeeftink>Wouter Beeftink</a></span></section></div><script src=https://code.jquery.com/jquery-3.6.4.slim.min.js integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin=anonymous></script><script src=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js integrity=sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx crossorigin=anonymous></script><script src=https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js integrity=sha384-EYn4rWu1DHvYD0sSSSbMEtXQmMl58CFJd897806+RT1jJVYbhuZlZMN6yG9nCyFa crossorigin=anonymous></script><script src=https://unpkg.com/smoothscroll-anchor-polyfill@1.3.2/dist/index.min.js integrity=sha384-EY9NBEHCFbZANmPcTm7CgG8OhsFILy0VBLG85pF6OIpP42NVbZVNsFOc23PYTCkB crossorigin=anonymous></script><script async src=/js/resume.js></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>David Bernal | “Document APIs using Spring Rest Docs”</title>
+  <meta name="description" content="">
+
+  
+  
+    <meta property="og:image" content="http://localhost:1313/images/me.jpeg" />
+    <meta property="og:title" content="David Bernal | “Document APIs using Spring Rest Docs”" />   
+  
+  <meta property="og:description" content="" />
+  <meta name="author" content="David Bernal">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css" integrity="sha512-JW3fT0YTK7pT7w437SoX6GcW76jOZ6E0jGmrqBAcloC4GKT+njHOY4fX5KxJ9WfIXTkNrAF994525fAHp+KCxg==" crossorigin="anonymous"></noscript>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous"></noscript>
+  
+  <link rel="preload" href="http://localhost:1313/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="http://localhost:1313/css/resume.css"></noscript>
+  <link rel="preload" href="http://localhost:1313/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="http://localhost:1313/css/tweaks.css"></noscript>
+  <link rel="preload" href="http://localhost:1313/css/resume.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="http://localhost:1313/css/resume.css"></noscript>
+  <meta name="generator" content="Hugo 0.145.0">
+  
+   
+  
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">David Bernal</span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/images/me.jpeg" alt="">
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#skills">Skills</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#creations">Creations</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#experience">Experience</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="/#blog">Blog</a>
+      </li>
+      
+      
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+      
+    </ul>
+  </div>
+</nav>
+  <div class="container-fluid p-0">
+    
+<nav aria-label="breadcrumb">
+  <ol  class="breadcrumb">
+    
+
+
+
+
+
+<li class="breadcrumb-item">
+  <a href="http://localhost:1313/">Home</a>
+</li>
+
+
+<li class="breadcrumb-item">
+  <a href="http://localhost:1313/blog/">Blog</a>
+</li>
+
+
+<li class="breadcrumb-item active">
+  <a href="http://localhost:1313/blog/spring-rest-docs/">“Document APIs using Spring Rest Docs”</a>
+</li>
+
+  </ol>
+</nav>
+
+
+
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column">
+  <div class="my-auto">
+  	<div class="mb-3 d-flex flex-row justify-content-between">
+    	<h2 class="mb-0"><span class="text-primary">“Document APIs using Spring Rest Docs”</span></h2>
+    	<span class="">August 16, 2022</span>
+    </div>
+    <div>
+    	<p>Throughout my experience in software development, I’ve learned that one of the main things to keep in mind is how the code we write will be tested. And not just that — it’s also crucial to ensure that the tests actually work as they should, rather than just creating tests to meet a code coverage percentage and avoid issues with Sonar rules 😅.</p>
+<p>At some point, we’ve all written our own tests, and over time we’ve found strategies that help us develop them more effectively. However, I’ve also seen that when deadlines start to tighten in a project, two main things often happen:</p>
+<ol>
+<li>Testing is sacrificed (a decision that comes back to bite later)</li>
+<li>Developers are added to the project indiscriminately (a big mistake, especially when time is short)</li>
+</ol>
+<p>Even if it might not seem like it, tests are an excellent way to document our code. But to do this properly, we need time to write them and a team with at least a basic understanding of the project. Otherwise, we’ll end up creating tests that only aim to meet a code coverage percentage. (In my opinion) 😅</p>
+<p>As I mentioned earlier, a good way to document our code is through tests. And while there are other alternatives for documenting our APIs—such as <a href="https://swagger.io/specification/">Swagger</a> or <a href="https://www.asyncapi.com/en">AsyncAPI</a> in this case, I’ll rely on the <a href="https://docs.spring.io/spring-restdocs/docs/2.0.5.RELEASE/reference/html5/">Spring REST Docs</a> project. It generates a document that describes the full functionality of our API in a very elegant and intuitive way.</p>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+<li>Maven 3.6.X: <a href="https://maven.apache.org/download.cgi">https://maven.apache.org/download.cgi</a></li>
+<li>Java 11: <a href="https://www.oracle.com/java/technologies/downloads">https://www.oracle.com/java/technologies/downloads</a></li>
+<li>Intellij: <a href="https://www.jetbrains.com/idea/download">https://www.jetbrains.com/idea/download</a></li>
+</ul>
+<h3 id="user-service">User service</h3>
+<p>To create our Spring Boot project, we go to <a href="https://start.spring.io/">https://start.spring.io/</a> and select the following configuration:</p>
+<p><img src="/images/blog/spring-rest-docs/user-service-configurtion.webp" alt="user-service-configurtion"></p>
+<p>We add the Asciidoctor plugin
+First, we need to configure the Asciidoctor plugin, which will be responsible for collecting all the documents generated by our tests (snippets). The main properties to configure are: sourceDirectory, snippets, and backend.</p>
+<ul>
+<li>
+<p><strong>sourceDirectory</strong>: The path where our base template will be located, which will be used to generate the API documentation.</p>
+</li>
+<li>
+<p><strong>snippets</strong>: The location where the snippets specified in each of our tests will be generated.</p>
+</li>
+<li>
+<p><strong>backend</strong>: The type of document that will be generated for our API documentation. Possible values are: <strong>spring-html</strong>, <strong>html</strong> and <strong>pdf</strong>.</p>
+</li>
+</ul>
+<p><img src="/images/blog/spring-rest-docs/asciidoctor-plugin-configuration.webp" alt="asciidoctor-plugin-configuration"></p>
+<blockquote>
+<p>Tip: I replaced the spring-restdocs-asciidoctor dependency with spring-asciidoctor-backends in order to generate a document using a style proposed by the Spring team. You can check out the repository <a href="https://github.com/spring-io/spring-asciidoctor-backends">here</a>.</p></blockquote>
+<h3 id="usercontroller">UserController</h3>
+<p>For our service, we’ll create a few endpoints where we can perform CRUD operations on a user and their possible accounts. To keep the service development concise, I used H2 as an in-memory database and Spring JPA to easily handle all database operations, allowing us to focus on what really matters: the tests. But if you’d like to take a look at the code, you can check it out <a href="https://github.com/dberna2/spring-rest-docs-gh-pages/blob/master/src/main/java/com/dberna2/springrestdocts/springrestdocs/controller/UserController.java">here</a>.</p>
+<h3 id="usercontrollertest">UserControllerTest</h3>
+<p>As I mentioned at the beginning of this post, “Tests are an excellent way to document our code,” so in this case, we’ll use MockMvc to make example requests to our API. We’ll also use the <a href="https://martinfowler.com/bliki/ObjectMother.html">ObjectMother</a> pattern to represent our input and output data, which will serve as the contract our API must follow.</p>
+<h3 id="retrieve-user-by-id">Retrieve user by ID</h3>
+<p>In this test, we retrieve a user’s basic information using their identifier and validate, using jsonPath, that the expected fields are present in the service’s response. So far, everything seems normal—but if we take a closer look at the <strong>pathParameters</strong> and <strong>responseFields</strong> methods, we’ll see that these are responsible for validating, through Spring Rest Docs, that the fields returned by the service are exactly the ones it’s supposed to return.</p>
+<p><img src="/images/blog/spring-rest-docs/get_user_by_id.webp" alt="get_user_by_id"></p>
+<blockquote>
+<p>Note: The value <strong>user-by-id</strong> will be the name used to generate our snippets, so try to choose a name that clearly describes the purpose of what it does.</p></blockquote>
+<p><img src="/images/blog/spring-rest-docs/get_user_response_fields_descriptor.webp" alt="get_user_response_fields_descriptor"></p>
+<blockquote>
+<p>Note: The buildField method is a utility I used to avoid repeating the same configuration for the FieldDescriptor objects, which are used by Spring Rest Docs. If you’d like to see what this method does, you can check it out here.</p></blockquote>
+<h3 id="generated-snippets">Generated Snippets</h3>
+<p>Once we complete the previous configuration and run our tests, we’ll find all the generated snippets in the <strong>/target/generated-snippets</strong> directory, using the identifiers we specified.</p>
+
+	    
+	</div>
+    <div>
+    	
+    </div>
+    <ul class="tags">
+    
+</ul>
+
+  </div>
+</section>
+
+    <section><span style="color: #999999;">Nifty <a href="https://codepen.io/wbeeftink/pen/dIaDH">tech tag lists</a> from <a class="pen-owner-link" href="https://codepen.io/wbeeftink">Wouter Beeftink</a> </span>
+      
+    </section>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  
+  <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js" integrity="sha384-EYn4rWu1DHvYD0sSSSbMEtXQmMl58CFJd897806+RT1jJVYbhuZlZMN6yG9nCyFa" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/smoothscroll-anchor-polyfill@1.3.2/dist/index.min.js" integrity="sha384-EY9NBEHCFbZANmPcTm7CgG8OhsFILy0VBLG85pF6OIpP42NVbZVNsFOc23PYTCkB" crossorigin="anonymous"></script>
+  
+  <script async src="/js/resume.js"></script>
+  
+
+  
+
+  
+</body>
+</html>

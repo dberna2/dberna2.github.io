@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java on David Bernal</title><link>https://dberna2.github.io/tags/java/</link><description>Recent content in Java on David Bernal</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 11 Feb 2018 12:41:05 -0500</lastBuildDate><atom:link href="https://dberna2.github.io/tags/java/index.xml" rel="self" type="application/rss+xml"/><item><title>Checkstyle for Java using GitHub Action and Reviewdog</title><link>https://dberna2.github.io/projects/creations/check-style/</link><pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate><guid>https://dberna2.github.io/projects/creations/check-style/</guid><description>&lt;h3 id="reviewdog--github-actions-enforce-team-agreements-without-breaking-your-flow">ReviewDog + GitHub Actions: enforce team agreements without breaking your flow&lt;/h3>
-&lt;p>Code style agreements are essential for long-term maintainability. But in most teams, enforcing them is tricky: warnings get ignored, and blocking the CI for every style rule can feel excessive. That’s where ReviewDog shines.&lt;/p>
-&lt;p>This setup uses ReviewDog in combination with CheckStyle and GitHub Actions to surface violations directly in pull requests — without interrupting builds. Developers get inline comments tied to their changes, keeping the review focused on business logic while still catching style issues early.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on David Bernal</title>
+    <link>http://localhost:1313/tags/java/</link>
+    <description>Recent content in Java on David Bernal</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Feb 2018 12:41:05 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Checkstyle for Java using GitHub Action and Reviewdog</title>
+      <link>http://localhost:1313/projects/creations/check-style/</link>
+      <pubDate>Sun, 11 Feb 2018 12:41:05 -0500</pubDate>
+      <guid>http://localhost:1313/projects/creations/check-style/</guid>
+      <description>&lt;h3 id=&#34;reviewdog--github-actions-enforce-team-agreements-without-breaking-your-flow&#34;&gt;ReviewDog + GitHub Actions: enforce team agreements without breaking your flow&lt;/h3&gt;&#xA;&lt;p&gt;Code style agreements are essential for long-term maintainability. But in most teams, enforcing them is tricky: warnings get ignored, and blocking the CI for every style rule can feel excessive. That’s where ReviewDog shines.&lt;/p&gt;&#xA;&lt;p&gt;This setup uses ReviewDog in combination with CheckStyle and GitHub Actions to surface violations directly in pull requests — without interrupting builds. Developers get inline comments tied to their changes, keeping the review focused on business logic while still catching style issues early.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>School on David Bernal</title><link>https://dberna2.github.io/tags/school/</link><description>Recent content in School on David Bernal</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 16 Aug 2022 22:00:00 +0000</lastBuildDate><atom:link href="https://dberna2.github.io/tags/school/index.xml" rel="self" type="application/rss+xml"/><item><title>“Document APIs using Spring Rest Docs”</title><link>https://dberna2.github.io/blog/spring-rest-docs/</link><pubDate>Tue, 16 Aug 2022 22:00:00 +0000</pubDate><guid>https://dberna2.github.io/blog/spring-rest-docs/</guid><description>&lt;p>Throughout my experience in software development, I’ve learned that one of the main things to keep in mind is how the code we write will be tested. And not just that — it’s also crucial to ensure that the tests actually work as they should, rather than just creating tests to meet a code coverage percentage and avoid issues with Sonar rules 😅.&lt;/p>
-&lt;p>At some point, we’ve all written our own tests, and over time we’ve found strategies that help us develop them more effectively. However, I’ve also seen that when deadlines start to tighten in a project, two main things often happen:&lt;/p></description></item><item><title>Eddie Webbinaro Elected School Board Member</title><link>https://dberna2.github.io/blog/example2/</link><pubDate>Tue, 17 May 2022 22:00:00 +0000</pubDate><guid>https://dberna2.github.io/blog/example2/</guid><description>&lt;p>Wowwwww.&lt;/p>
-&lt;p>I am just awed by the support and turnout from this community. You all just totally blew me away.&lt;/p>
-&lt;p>Thanks for everyone who voted, read, shared, attened, and asked. While the current board still needs to approve my election next month for my term beginning July I&amp;rsquo;m not going to lose any momentum. I already have a list of things to research and understand better, and I look forward to start building relationships with the team.&lt;/p></description></item><item><title>Eddie Webbinaro Elected School Board Member</title><link>https://dberna2.github.io/blog/my-first/</link><pubDate>Tue, 17 May 2022 21:00:00 +0000</pubDate><guid>https://dberna2.github.io/blog/my-first/</guid><description>&lt;p>fgfgfg&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>School on David Bernal</title>
+    <link>http://localhost:1313/tags/school/</link>
+    <description>Recent content in School on David Bernal</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Aug 2022 22:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/school/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>“Document APIs using Spring Rest Docs”</title>
+      <link>http://localhost:1313/blog/spring-rest-docs/</link>
+      <pubDate>Tue, 16 Aug 2022 22:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/spring-rest-docs/</guid>
+      <description>&lt;p&gt;Throughout my experience in software development, I’ve learned that one of the main things to keep in mind is how the code we write will be tested. And not just that — it’s also crucial to ensure that the tests actually work as they should, rather than just creating tests to meet a code coverage percentage and avoid issues with Sonar rules 😅.&lt;/p&gt;&#xA;&lt;p&gt;At some point, we’ve all written our own tests, and over time we’ve found strategies that help us develop them more effectively. However, I’ve also seen that when deadlines start to tighten in a project, two main things often happen:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eddie Webbinaro Elected School Board Member</title>
+      <link>http://localhost:1313/blog/example2/</link>
+      <pubDate>Tue, 17 May 2022 22:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/example2/</guid>
+      <description>&lt;p&gt;Wowwwww.&lt;/p&gt;&#xA;&lt;p&gt;I am just awed by the support and turnout from this community.  You all just totally blew me away.&lt;/p&gt;&#xA;&lt;p&gt;Thanks for everyone who voted, read, shared, attened, and asked.  While the current board still needs to approve my election next month for my term beginning July I&amp;rsquo;m not going to lose any momentum. I already have a list of things to research and understand better, and I look forward to start building relationships with the team.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eddie Webbinaro Elected School Board Member</title>
+      <link>http://localhost:1313/blog/my-first/</link>
+      <pubDate>Tue, 17 May 2022 21:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/my-first/</guid>
+      <description>&lt;p&gt;fgfgfg&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
