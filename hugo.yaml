@@ -25,6 +25,9 @@ params:
   showBoards: true
   showCertifications: true
   showSocializations: true
+  cv:
+    show: true
+    file: "David_Bernal_CV.pdf"
   # do you want to show git hash on page footer and link to repo? Add commit prefix here.
   gitCommitPrefix: "https://github.com/dberna2/dberna2.github.io/commit/main"
   sections:

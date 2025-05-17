@@ -11,6 +11,11 @@
               </div>
 
             </div>
+            {{ if .Site.Params.cv.show }}
+              <div class="text-center mt-2 ">
+                <a href="{{ .Site.Params.cv.file }}" class="btn btn-primary" target="_blank">{{ i18n "downloadCV" | default "Download CV" }}</a>
+              </div>
+            {{ end }}
 
             {{ if .Site.Params.showQr }}
               {{ partial "contact-qr" . }}
